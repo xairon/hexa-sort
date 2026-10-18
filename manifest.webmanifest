@@ -1,0 +1,17 @@
+{
+  "name": "Hexa Sort",
+  "short_name": "Hexa Sort",
+  "description": "Trie, enchaîne, explose : jeu de tri de piles hexagonales.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#140e30",
+  "theme_color": "#140e30",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
