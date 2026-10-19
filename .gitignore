@@ -3,3 +3,4 @@ data/
 *.sqlite*
 .env
 coverage/
+dist/

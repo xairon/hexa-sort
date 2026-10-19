@@ -1,6 +1,6 @@
 // Only the solo application shell is cached. API responses never enter CacheStorage.
 const PREFIX='hexa-arena-'+self.registration.scope;
-const CACHE=PREFIX+'v6.0.0';
+const CACHE=PREFIX+'v6.0.1';
 const FILES=['./','./index.html','./app.mjs','./style.css','./shared/engine.mjs','./shared/storage.mjs','./manifest.webmanifest','./icon.svg'];
 const allowed=new Set(FILES.map(p=>new URL(p,self.registration.scope).href));
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
