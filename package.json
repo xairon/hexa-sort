@@ -1,0 +1,6 @@
+{
+  "name": "hexa-sort-arena", "version": "6.0.0", "private": true, "type": "module",
+  "description": "Hexa Sort: deterministic solo engine and server-authoritative duels",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node server/main.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check app.mjs && node --check shared/engine.mjs && node --check server/main.mjs" }
+}
